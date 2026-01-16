@@ -6878,3 +6878,1056 @@ PIL.UnidentifiedImageError: cannot identify image file './cache/OTtj0TStTJKvILmU
 2026-01-16 14:23:02,517 - my_logger - INFO - 处理任务 - PID: zZwPClqYRR2k3IFXpraxnw03401761020575, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
 2026-01-16 14:23:02,887 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
 2026-01-16 14:23:02,888 - my_logger - DEBUG - 任务检查完成
+2026-01-16 14:33:48,922 - my_logger - INFO - 数据库初始化完成
+2026-01-16 14:33:49,046 - my_logger - DEBUG - 目录已存在: cache
+2026-01-16 14:33:49,046 - my_logger - DEBUG - 目录已存在: files
+2026-01-16 14:33:49,046 - my_logger - DEBUG - 目录已存在: logs
+2026-01-16 14:33:49,046 - my_logger - INFO - 启动线程: TaskProcessor
+2026-01-16 14:33:49,046 - my_logger - DEBUG - 开始检查任务
+2026-01-16 14:33:49,046 - my_logger - INFO - 任务合作档口营业款付款申请(新版)开始获取列表
+2026-01-16 14:33:51,161 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:33:51,628 - my_logger - DEBUG - 【Stage1】任务：陈丽娜提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:52,032 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:52,508 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:52,864 - my_logger - DEBUG - 【Stage1】任务：陈文刚提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:53,347 - my_logger - DEBUG - 【Stage1】任务：叶萍提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:53,793 - my_logger - DEBUG - 【Stage1】任务：杨丽娇提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:54,241 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:54,651 - my_logger - DEBUG - 【Stage1】任务：刘廷明提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:54,980 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:55,418 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:55,848 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:56,263 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:56,640 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:57,145 - my_logger - DEBUG - 【Stage1】任务：蔡源鑫提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:57,630 - my_logger - DEBUG - 【Stage1】任务：余波提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:33:57,993 - my_logger - DEBUG - 【Stage1】任务：夏磊提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:33:58,415 - my_logger - DEBUG - 【Stage1】任务：肖世芳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:58,808 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:33:59,239 - my_logger - DEBUG - 【Stage1】任务：曾佩仪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:33:59,585 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:33:59,917 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:00,251 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:00,678 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:01,091 - my_logger - DEBUG - 【Stage1】任务：李艳红提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:01,404 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:01,840 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:02,226 - my_logger - DEBUG - 【Stage1】任务：刘海利提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:02,570 - my_logger - DEBUG - 【Stage1】任务：伍凤珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:03,079 - my_logger - DEBUG - 【Stage1】任务：王洁林提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:03,512 - my_logger - DEBUG - 【Stage1】任务：何小清提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:03,838 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:04,226 - my_logger - DEBUG - 【Stage1】任务：宁尚富提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:04,650 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:05,003 - my_logger - DEBUG - 【Stage1】任务：刘海利提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:05,329 - my_logger - DEBUG - 【Stage1】任务：肖进珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:05,685 - my_logger - DEBUG - 【Stage1】任务：刘洪霖提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:34:06,031 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:06,376 - my_logger - DEBUG - 【Stage1】任务：陈俊伟提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:06,785 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:07,126 - my_logger - DEBUG - 【Stage1】任务：王雅苇提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:07,495 - my_logger - DEBUG - 【Stage1】任务：佘琼芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:07,878 - my_logger - DEBUG - 【Stage1】任务：杨丽娇提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:08,236 - my_logger - DEBUG - 【Stage1】任务：路然浩提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:08,572 - my_logger - DEBUG - 【Stage1】任务：周春提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:09,006 - my_logger - DEBUG - 【Stage1】任务：李伟兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:09,373 - my_logger - DEBUG - 【Stage1】任务：胡晓奕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:09,810 - my_logger - DEBUG - 【Stage1】任务：张晶提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:10,198 - my_logger - DEBUG - 【Stage1】任务：胡晓奕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:10,615 - my_logger - DEBUG - 【Stage1】任务：廖丹利提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:11,000 - my_logger - DEBUG - 【Stage1】任务：吉毅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:11,372 - my_logger - DEBUG - 【Stage1】任务：王竞雅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:11,776 - my_logger - DEBUG - 【Stage1】任务：周春提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:12,179 - my_logger - DEBUG - 【Stage1】任务：李德素提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:12,532 - my_logger - DEBUG - 【Stage1】任务：钱海鹏提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:12,919 - my_logger - DEBUG - 【Stage1】任务：陈文刚提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:13,326 - my_logger - DEBUG - 【Stage1】任务：曾佩仪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:13,809 - my_logger - DEBUG - 【Stage1】任务：张继强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:14,206 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:14,547 - my_logger - DEBUG - 【Stage1】任务：余波提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:14,939 - my_logger - DEBUG - 【Stage1】任务：王梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:15,383 - my_logger - DEBUG - 【Stage1】任务：徐海英提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:15,795 - my_logger - DEBUG - 【Stage1】任务：郑志杰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:16,382 - my_logger - DEBUG - 【Stage1】任务：简冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:16,730 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:17,101 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:17,523 - my_logger - DEBUG - 【Stage1】任务：何敏提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:18,122 - my_logger - DEBUG - 【Stage1】任务：刘桂林提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:18,522 - my_logger - DEBUG - 【Stage1】任务：肖世芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:18,900 - my_logger - DEBUG - 【Stage3】任务: 刘廷明提交的合作档口营业款付款申请 结果: refuse，不在目标结果中，标记为已处理
+2026-01-16 14:34:19,277 - my_logger - DEBUG - 【Stage1】任务：李艳红提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:19,691 - my_logger - DEBUG - 【Stage1】任务：赵莹提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:20,037 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:20,392 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:20,849 - my_logger - DEBUG - 【Stage1】任务：唐先丹提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:21,224 - my_logger - DEBUG - 【Stage1】任务：王春梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:21,624 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:22,008 - my_logger - DEBUG - 【Stage1】任务：王春梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:22,408 - my_logger - DEBUG - 【Stage1】任务：伍凤珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:22,753 - my_logger - DEBUG - 【Stage1】任务：郑志杰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:23,263 - my_logger - DEBUG - 【Stage1】任务：朱婷婷提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:23,648 - my_logger - DEBUG - 【Stage1】任务：何小清提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:24,053 - my_logger - DEBUG - 【Stage1】任务：张继强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:24,448 - my_logger - DEBUG - 【Stage1】任务：颜芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:24,934 - my_logger - DEBUG - 【Stage1】任务：方尚美提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:25,371 - my_logger - DEBUG - 【Stage1】任务：吴燕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:25,818 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:26,169 - my_logger - DEBUG - 【Stage1】任务：葛俊恋提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:26,576 - my_logger - DEBUG - 【Stage1】任务：蔡源鑫提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:26,953 - my_logger - DEBUG - 【Stage1】任务：黎雪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:27,352 - my_logger - DEBUG - 【Stage1】任务：洪佳宜提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:27,754 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:28,143 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:28,489 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:28,836 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:29,213 - my_logger - DEBUG - 【Stage1】任务：宁尚富提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:29,605 - my_logger - DEBUG - 【Stage1】任务：周茜提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:34:29,606 - my_logger - INFO - 任务付款信息变更开始获取列表
+2026-01-16 14:34:30,015 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:34:30,027 - my_logger - INFO - 任务开票申请开始获取列表
+2026-01-16 14:34:32,482 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:34:32,631 - my_logger - INFO - 任务开票红冲申请开始获取列表
+2026-01-16 14:34:33,695 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:34:33,736 - my_logger - INFO - 处理任务 - PID: sWUNEAXkRWWKfWvB7S_fZA03401741052921, 类型: 3, 标题: 王雅苇提交的合作档口营业款付款申请
+2026-01-16 14:34:33,736 - my_logger - ERROR - 处理任务时出错 - PID: sWUNEAXkRWWKfWvB7S_fZA03401741052921
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,739 - my_logger - INFO - 处理任务 - PID: 58FIPF5LTFOTUf2O95nBVw03401743588411, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,739 - my_logger - ERROR - 处理任务时出错 - PID: 58FIPF5LTFOTUf2O95nBVw03401743588411
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,739 - my_logger - INFO - 处理任务 - PID: f3etZc1kSX2t2ZnS2WG_IQ03401761556154, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:34:33,739 - my_logger - ERROR - 处理任务时出错 - PID: f3etZc1kSX2t2ZnS2WG_IQ03401761556154
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,740 - my_logger - INFO - 处理任务 - PID: Jr9ZPfP_TPuJASzKg0FwGQ03401760089952, 类型: 3, 标题: 蒋安东提交的合作档口营业款付款申请
+2026-01-16 14:34:33,740 - my_logger - ERROR - 处理任务时出错 - PID: Jr9ZPfP_TPuJASzKg0FwGQ03401760089952
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,740 - my_logger - INFO - 处理任务 - PID: 1AaHNo-oRWONcDwQtSIdSg03401731552917, 类型: 3, 标题: 姜巧凤提交的合作档口营业款付款申请
+2026-01-16 14:34:33,740 - my_logger - ERROR - 处理任务时出错 - PID: 1AaHNo-oRWONcDwQtSIdSg03401731552917
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,741 - my_logger - INFO - 处理任务 - PID: Ai09oMlcSMCuhthZ0o-qZw03401752371435, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,741 - my_logger - ERROR - 处理任务时出错 - PID: Ai09oMlcSMCuhthZ0o-qZw03401752371435
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,741 - my_logger - INFO - 处理任务 - PID: gjo3_oJOTW6JgIP0gEMX8A03401741932428, 类型: 3, 标题: 方尚美提交的合作档口营业款付款申请
+2026-01-16 14:34:33,741 - my_logger - ERROR - 处理任务时出错 - PID: gjo3_oJOTW6JgIP0gEMX8A03401741932428
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,741 - my_logger - INFO - 处理任务 - PID: qQqbawFnQuW0_poyHnHrdQ03401752369514, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,742 - my_logger - ERROR - 处理任务时出错 - PID: qQqbawFnQuW0_poyHnHrdQ03401752369514
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,742 - my_logger - INFO - 处理任务 - PID: cNFnkNsZSwCWnowxMBUlfg03401752405297, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,742 - my_logger - ERROR - 处理任务时出错 - PID: cNFnkNsZSwCWnowxMBUlfg03401752405297
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,743 - my_logger - INFO - 处理任务 - PID: hn9veMsZTaqH-koux1Rpbw03401732764273, 类型: 3, 标题: 景川提交的合作档口营业款付款申请
+2026-01-16 14:34:33,743 - my_logger - ERROR - 处理任务时出错 - PID: hn9veMsZTaqH-koux1Rpbw03401732764273
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,744 - my_logger - INFO - 处理任务 - PID: 6-OgRNQ2Q9CJyHcXZHywuw03401760683645, 类型: 3, 标题: 陈丽娜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,744 - my_logger - ERROR - 处理任务时出错 - PID: 6-OgRNQ2Q9CJyHcXZHywuw03401760683645
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,744 - my_logger - INFO - 处理任务 - PID: XXD1O96WRrWBQujPSzBgpQ03401761020074, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,744 - my_logger - ERROR - 处理任务时出错 - PID: XXD1O96WRrWBQujPSzBgpQ03401761020074
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,745 - my_logger - INFO - 处理任务 - PID: Tkde9avSRhmGjyx6ehezwA03401739236254, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,745 - my_logger - ERROR - 处理任务时出错 - PID: Tkde9avSRhmGjyx6ehezwA03401739236254
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,745 - my_logger - INFO - 处理任务 - PID: OqtbK3RWSzW0QqJzGynQ4g03401763425796, 类型: 3, 标题: 刘廷明提交的合作档口营业款付款申请
+2026-01-16 14:34:33,745 - my_logger - ERROR - 处理任务时出错 - PID: OqtbK3RWSzW0QqJzGynQ4g03401763425796
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,745 - my_logger - INFO - 处理任务 - PID: xvhosiltQpilyHX1HeZXGQ03401765441665, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:34:33,745 - my_logger - ERROR - 处理任务时出错 - PID: xvhosiltQpilyHX1HeZXGQ03401765441665
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,746 - my_logger - INFO - 处理任务 - PID: HOUUg77TSaingckVyNKJWA03401744702958, 类型: 3, 标题: 王洁林提交的合作档口营业款付款申请
+2026-01-16 14:34:33,746 - my_logger - ERROR - 处理任务时出错 - PID: HOUUg77TSaingckVyNKJWA03401744702958
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,746 - my_logger - INFO - 处理任务 - PID: NimOFaxtR1KV5Sdo9jzSkA03401763554442, 类型: 3, 标题: 吕晓婕提交的合作档口营业款付款申请
+2026-01-16 14:34:33,746 - my_logger - ERROR - 处理任务时出错 - PID: NimOFaxtR1KV5Sdo9jzSkA03401763554442
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,747 - my_logger - INFO - 处理任务 - PID: hwpZNO2-Q4uVFHyGJZ3P_w03401747300020, 类型: 3, 标题: 姜巧凤提交的合作档口营业款付款申请
+2026-01-16 14:34:33,747 - my_logger - ERROR - 处理任务时出错 - PID: hwpZNO2-Q4uVFHyGJZ3P_w03401747300020
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,747 - my_logger - INFO - 处理任务 - PID: jAzQIuMbRum4_rIBfTl0iw03401732762489, 类型: 3, 标题: 景川提交的合作档口营业款付款申请
+2026-01-16 14:34:33,747 - my_logger - ERROR - 处理任务时出错 - PID: jAzQIuMbRum4_rIBfTl0iw03401732762489
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,747 - my_logger - INFO - 处理任务 - PID: t9SyhdVjRbW8oB39CgicAA03401730345758, 类型: 3, 标题: 廖丹利提交的新版 合作档口营业款付款申请
+2026-01-16 14:34:33,747 - my_logger - ERROR - 处理任务时出错 - PID: t9SyhdVjRbW8oB39CgicAA03401730345758
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,748 - my_logger - INFO - 处理任务 - PID: XNl5PzlxQ5u3ocAjJ5zdyg03401761556292, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:34:33,749 - my_logger - ERROR - 处理任务时出错 - PID: XNl5PzlxQ5u3ocAjJ5zdyg03401761556292
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,750 - my_logger - INFO - 处理任务 - PID: jqNAKEJmTyyqj56bhRmaVw03401752138132, 类型: 3, 标题: 江明昭提交的合作档口营业款付款申请
+2026-01-16 14:34:33,750 - my_logger - ERROR - 处理任务时出错 - PID: jqNAKEJmTyyqj56bhRmaVw03401752138132
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,751 - my_logger - INFO - 处理任务 - PID: 6NTWoxfCRs27nTf0mcPsBw03401733109986, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,751 - my_logger - ERROR - 处理任务时出错 - PID: 6NTWoxfCRs27nTf0mcPsBw03401733109986
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,751 - my_logger - INFO - 处理任务 - PID: Q5yY8z2lQuSdDqtjoY3Vqg03401761020392, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,751 - my_logger - ERROR - 处理任务时出错 - PID: Q5yY8z2lQuSdDqtjoY3Vqg03401761020392
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,752 - my_logger - INFO - 处理任务 - PID: XE2aVcxfTDeYUQCNnQcOQw03401746521019, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,752 - my_logger - ERROR - 处理任务时出错 - PID: XE2aVcxfTDeYUQCNnQcOQw03401746521019
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,753 - my_logger - INFO - 处理任务 - PID: DXhrkwi7TOamKLF-tgaI9Q03401752405923, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,753 - my_logger - ERROR - 处理任务时出错 - PID: DXhrkwi7TOamKLF-tgaI9Q03401752405923
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,753 - my_logger - INFO - 处理任务 - PID: 9W6RGEn3R2K4tBjTb38UgQ03401765529381, 类型: 3, 标题: 张春兰提交的合作档口营业款付款申请
+2026-01-16 14:34:33,753 - my_logger - ERROR - 处理任务时出错 - PID: 9W6RGEn3R2K4tBjTb38UgQ03401765529381
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,753 - my_logger - INFO - 处理任务 - PID: 2Jea5A7bRXKaFtG5eWXgoA03401757305185, 类型: 3, 标题: 陈龙提交的合作档口营业款付款申请
+2026-01-16 14:34:33,753 - my_logger - ERROR - 处理任务时出错 - PID: 2Jea5A7bRXKaFtG5eWXgoA03401757305185
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,754 - my_logger - INFO - 处理任务 - PID: Vpsyy1trTSWYAa4sfwjOiw03401755518210, 类型: 3, 标题: 刘海利提交的合作档口营业款付款申请
+2026-01-16 14:34:33,754 - my_logger - ERROR - 处理任务时出错 - PID: Vpsyy1trTSWYAa4sfwjOiw03401755518210
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,754 - my_logger - INFO - 处理任务 - PID: t-j6tlCcRNuiAM9GP_d0Jg03401734241239, 类型: 3, 标题: 王洁林提交的合作档口营业款付款申请
+2026-01-16 14:34:33,754 - my_logger - ERROR - 处理任务时出错 - PID: t-j6tlCcRNuiAM9GP_d0Jg03401734241239
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,754 - my_logger - INFO - 处理任务 - PID: xruPRJxASjCZVWyunjTcMA03401761019741, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,754 - my_logger - ERROR - 处理任务时出错 - PID: xruPRJxASjCZVWyunjTcMA03401761019741
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,755 - my_logger - INFO - 处理任务 - PID: 2W4h9ERaQ-iuh1GHU-_DUg03401755526174, 类型: 3, 标题: 刘海利提交的合作档口营业款付款申请
+2026-01-16 14:34:33,755 - my_logger - ERROR - 处理任务时出错 - PID: 2W4h9ERaQ-iuh1GHU-_DUg03401755526174
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,755 - my_logger - INFO - 处理任务 - PID: QSO_JaPIRbGy7H_0t0mkTg03401763544634, 类型: 3, 标题: 杨柳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,755 - my_logger - ERROR - 处理任务时出错 - PID: QSO_JaPIRbGy7H_0t0mkTg03401763544634
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,755 - my_logger - INFO - 处理任务 - PID: DHNL0cHQTsqBxxb4-br-7w03401741933545, 类型: 3, 标题: 方尚美提交的合作档口营业款付款申请
+2026-01-16 14:34:33,755 - my_logger - ERROR - 处理任务时出错 - PID: DHNL0cHQTsqBxxb4-br-7w03401741933545
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,756 - my_logger - INFO - 处理任务 - PID: lehHKetOQw2fEpoXHrZKdw03401742266961, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,756 - my_logger - ERROR - 处理任务时出错 - PID: lehHKetOQw2fEpoXHrZKdw03401742266961
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,757 - my_logger - INFO - 处理任务 - PID: buiZuUg_SZitfUv_J37KoA03401752405436, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,757 - my_logger - ERROR - 处理任务时出错 - PID: buiZuUg_SZitfUv_J37KoA03401752405436
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,757 - my_logger - INFO - 处理任务 - PID: Qtl2IX1qRNKaInlp3NUd_Q03401732956129, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,757 - my_logger - ERROR - 处理任务时出错 - PID: Qtl2IX1qRNKaInlp3NUd_Q03401732956129
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,757 - my_logger - INFO - 处理任务 - PID: 3z0ELzr7SVes3TCrA12h3A03401768355922, 类型: 3, 标题: 朱婷婷提交的合作档口营业款付款申请
+2026-01-16 14:34:33,757 - my_logger - ERROR - 处理任务时出错 - PID: 3z0ELzr7SVes3TCrA12h3A03401768355922
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,758 - my_logger - INFO - 处理任务 - PID: Jf_5I9d9SImr7tEctaL5MA03401734316597, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:34:33,758 - my_logger - ERROR - 处理任务时出错 - PID: Jf_5I9d9SImr7tEctaL5MA03401734316597
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,759 - my_logger - INFO - 处理任务 - PID: AR-8TSK7SDCzSjzfLoS_1w03401731992507, 类型: 3, 标题: 肖曼提交的合作档口营业款付款申请
+2026-01-16 14:34:33,759 - my_logger - ERROR - 处理任务时出错 - PID: AR-8TSK7SDCzSjzfLoS_1w03401731992507
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,759 - my_logger - INFO - 处理任务 - PID: dGAwapInT_qwcdtFH_ZYxg03401747298746, 类型: 3, 标题: 张继强提交的合作档口营业款付款申请
+2026-01-16 14:34:33,759 - my_logger - ERROR - 处理任务时出错 - PID: dGAwapInT_qwcdtFH_ZYxg03401747298746
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,759 - my_logger - INFO - 处理任务 - PID: pMu8RJ5ATWq2LMMO58tbxA03401732162527, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,759 - my_logger - ERROR - 处理任务时出错 - PID: pMu8RJ5ATWq2LMMO58tbxA03401732162527
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,760 - my_logger - INFO - 处理任务 - PID: uhyuy8O3QA-RqJbdTb68xw03401758015690, 类型: 3, 标题: 王雅苇提交的合作档口营业款付款申请
+2026-01-16 14:34:33,760 - my_logger - ERROR - 处理任务时出错 - PID: uhyuy8O3QA-RqJbdTb68xw03401758015690
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,761 - my_logger - INFO - 处理任务 - PID: 6fnRTgCxTXO9bgPLc1SNlw03401760090037, 类型: 3, 标题: 蒋安东提交的合作档口营业款付款申请
+2026-01-16 14:34:33,761 - my_logger - ERROR - 处理任务时出错 - PID: 6fnRTgCxTXO9bgPLc1SNlw03401760090037
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,762 - my_logger - INFO - 处理任务 - PID: 35zYNHb4S52aXqqLwMLkiw03401732866431, 类型: 3, 标题: 蔡源鑫提交的合作档口营业款付款申请
+2026-01-16 14:34:33,762 - my_logger - ERROR - 处理任务时出错 - PID: 35zYNHb4S52aXqqLwMLkiw03401732866431
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,763 - my_logger - INFO - 处理任务 - PID: lPGgWx0NRgKTIJ6fCk3WPA03401736913861, 类型: 3, 标题: 曲瑞雪提交的合作档口营业款付款申请
+2026-01-16 14:34:33,763 - my_logger - ERROR - 处理任务时出错 - PID: lPGgWx0NRgKTIJ6fCk3WPA03401736913861
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,764 - my_logger - INFO - 处理任务 - PID: S1gLYj9eRdmclx5B20KIgQ03401761013692, 类型: 3, 标题: 陈龙提交的合作档口营业款付款申请
+2026-01-16 14:34:33,764 - my_logger - ERROR - 处理任务时出错 - PID: S1gLYj9eRdmclx5B20KIgQ03401761013692
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,765 - my_logger - INFO - 处理任务 - PID: MYJRobCJSsGGI__kOvvnAw03401758790501, 类型: 3, 标题: 洪佳宜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,765 - my_logger - ERROR - 处理任务时出错 - PID: MYJRobCJSsGGI__kOvvnAw03401758790501
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,766 - my_logger - INFO - 处理任务 - PID: 5SYpKadbT5W9GrxzJbf1LA03401765797193, 类型: 3, 标题: 何小清提交的合作档口营业款付款申请
+2026-01-16 14:34:33,766 - my_logger - ERROR - 处理任务时出错 - PID: 5SYpKadbT5W9GrxzJbf1LA03401765797193
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,766 - my_logger - INFO - 处理任务 - PID: ni2_VILVQl6jdftkz9THXw03401731579317, 类型: 3, 标题: 蔡源鑫提交的合作档口营业款付款申请
+2026-01-16 14:34:33,766 - my_logger - ERROR - 处理任务时出错 - PID: ni2_VILVQl6jdftkz9THXw03401731579317
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,767 - my_logger - INFO - 处理任务 - PID: ViYS371IQEGK9di2NpL1cA03401761037399, 类型: 3, 标题: 陈文刚提交的合作档口营业款付款申请
+2026-01-16 14:34:33,767 - my_logger - ERROR - 处理任务时出错 - PID: ViYS371IQEGK9di2NpL1cA03401761037399
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,768 - my_logger - INFO - 处理任务 - PID: gh6kN6imQuiMHG6HDwyXfw03401735794753, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:34:33,768 - my_logger - ERROR - 处理任务时出错 - PID: gh6kN6imQuiMHG6HDwyXfw03401735794753
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,768 - my_logger - INFO - 处理任务 - PID: MOtcAWvSQkSdNennSXzxUw03401733719769, 类型: 3, 标题: 石美琪提交的合作档口营业款付款申请
+2026-01-16 14:34:33,768 - my_logger - ERROR - 处理任务时出错 - PID: MOtcAWvSQkSdNennSXzxUw03401733719769
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,768 - my_logger - INFO - 处理任务 - PID: zZwPClqYRR2k3IFXpraxnw03401761020575, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:34:33,768 - my_logger - ERROR - 处理任务时出错 - PID: zZwPClqYRR2k3IFXpraxnw03401761020575
+Traceback (most recent call last):
+  File "/Users/doeca/Documents/remotePrinter/main.py", line 128, in process_pending_tasks
+    res = task_handler.handle_task(pid, task_type, status, title)
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 369, in handle_task
+    handler = get_handler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 363, in get_handler
+    _handler = TaskHandler()
+  File "/Users/doeca/Documents/remotePrinter/task_handler.py", line 28, in __init__
+    with open(config_file, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
+2026-01-16 14:34:33,768 - my_logger - DEBUG - 任务检查完成
+2026-01-16 14:35:03,467 - my_logger - INFO - 数据库初始化完成
+2026-01-16 14:35:03,549 - my_logger - DEBUG - 目录已存在: cache
+2026-01-16 14:35:03,549 - my_logger - DEBUG - 目录已存在: files
+2026-01-16 14:35:03,549 - my_logger - DEBUG - 目录已存在: logs
+2026-01-16 14:35:03,549 - my_logger - INFO - 启动线程: TaskProcessor
+2026-01-16 14:35:03,549 - my_logger - DEBUG - 开始检查任务
+2026-01-16 14:35:03,550 - my_logger - INFO - 任务合作档口营业款付款申请(新版)开始获取列表
+2026-01-16 14:35:05,813 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:35:06,272 - my_logger - DEBUG - 【Stage1】任务：陈丽娜提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:06,719 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:07,130 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:07,455 - my_logger - DEBUG - 【Stage1】任务：陈文刚提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:07,905 - my_logger - DEBUG - 【Stage1】任务：叶萍提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:08,338 - my_logger - DEBUG - 【Stage1】任务：杨丽娇提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:08,777 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:09,180 - my_logger - DEBUG - 【Stage1】任务：刘廷明提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:09,544 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:09,997 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:10,450 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:10,837 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:11,381 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:11,862 - my_logger - DEBUG - 【Stage1】任务：蔡源鑫提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:12,249 - my_logger - DEBUG - 【Stage1】任务：余波提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:12,637 - my_logger - DEBUG - 【Stage1】任务：夏磊提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:13,072 - my_logger - DEBUG - 【Stage1】任务：肖世芳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:13,472 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:13,902 - my_logger - DEBUG - 【Stage1】任务：曾佩仪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:14,235 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:14,589 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:14,946 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:15,398 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:15,795 - my_logger - DEBUG - 【Stage1】任务：李艳红提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:16,170 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:16,606 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:17,006 - my_logger - DEBUG - 【Stage1】任务：刘海利提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:17,366 - my_logger - DEBUG - 【Stage1】任务：伍凤珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:18,264 - my_logger - DEBUG - 【Stage1】任务：王洁林提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:18,645 - my_logger - DEBUG - 【Stage1】任务：何小清提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:18,979 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:19,354 - my_logger - DEBUG - 【Stage1】任务：宁尚富提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:19,801 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:20,207 - my_logger - DEBUG - 【Stage1】任务：刘海利提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:20,569 - my_logger - DEBUG - 【Stage1】任务：肖进珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:20,914 - my_logger - DEBUG - 【Stage1】任务：刘洪霖提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:35:21,285 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:21,817 - my_logger - DEBUG - 【Stage1】任务：陈俊伟提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:22,212 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:22,569 - my_logger - DEBUG - 【Stage1】任务：王雅苇提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:22,917 - my_logger - DEBUG - 【Stage1】任务：佘琼芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:23,293 - my_logger - DEBUG - 【Stage1】任务：杨丽娇提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:23,632 - my_logger - DEBUG - 【Stage1】任务：路然浩提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:23,975 - my_logger - DEBUG - 【Stage1】任务：周春提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:24,401 - my_logger - DEBUG - 【Stage1】任务：李伟兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:24,760 - my_logger - DEBUG - 【Stage1】任务：胡晓奕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:25,178 - my_logger - DEBUG - 【Stage1】任务：张晶提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:25,558 - my_logger - DEBUG - 【Stage1】任务：胡晓奕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:25,947 - my_logger - DEBUG - 【Stage1】任务：廖丹利提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:26,350 - my_logger - DEBUG - 【Stage1】任务：吉毅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:27,093 - my_logger - DEBUG - 【Stage1】任务：王竞雅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:27,482 - my_logger - DEBUG - 【Stage1】任务：周春提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:27,902 - my_logger - DEBUG - 【Stage1】任务：李德素提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:28,245 - my_logger - DEBUG - 【Stage1】任务：钱海鹏提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:28,630 - my_logger - DEBUG - 【Stage1】任务：陈文刚提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:29,094 - my_logger - DEBUG - 【Stage1】任务：曾佩仪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:29,484 - my_logger - DEBUG - 【Stage1】任务：张继强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:29,879 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:30,220 - my_logger - DEBUG - 【Stage1】任务：余波提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:30,646 - my_logger - DEBUG - 【Stage1】任务：王梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:31,069 - my_logger - DEBUG - 【Stage1】任务：徐海英提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:31,458 - my_logger - DEBUG - 【Stage1】任务：郑志杰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:31,866 - my_logger - DEBUG - 【Stage1】任务：简冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:32,225 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:32,611 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:33,023 - my_logger - DEBUG - 【Stage1】任务：何敏提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:33,419 - my_logger - DEBUG - 【Stage1】任务：刘桂林提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:33,814 - my_logger - DEBUG - 【Stage1】任务：肖世芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:34,204 - my_logger - DEBUG - 【Stage1】任务：李艳红提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:34,591 - my_logger - DEBUG - 【Stage1】任务：赵莹提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:34,957 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:35,320 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:35,777 - my_logger - DEBUG - 【Stage1】任务：唐先丹提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:36,137 - my_logger - DEBUG - 【Stage1】任务：王春梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:36,548 - my_logger - DEBUG - 【Stage1】任务：张春兰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:36,979 - my_logger - DEBUG - 【Stage1】任务：王春梅提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:37,377 - my_logger - DEBUG - 【Stage1】任务：伍凤珍提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:37,744 - my_logger - DEBUG - 【Stage1】任务：郑志杰提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:38,112 - my_logger - DEBUG - 【Stage1】任务：朱婷婷提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:38,492 - my_logger - DEBUG - 【Stage1】任务：何小清提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:38,905 - my_logger - DEBUG - 【Stage1】任务：张继强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:39,290 - my_logger - DEBUG - 【Stage1】任务：颜芳提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:39,759 - my_logger - DEBUG - 【Stage1】任务：方尚美提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:40,324 - my_logger - DEBUG - 【Stage1】任务：吴燕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:40,728 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:41,084 - my_logger - DEBUG - 【Stage1】任务：葛俊恋提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:41,489 - my_logger - DEBUG - 【Stage1】任务：蔡源鑫提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:41,886 - my_logger - DEBUG - 【Stage1】任务：黎雪提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:42,303 - my_logger - DEBUG - 【Stage1】任务：洪佳宜提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:42,703 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:43,097 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:43,437 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:43,836 - my_logger - DEBUG - 【Stage1】任务：肖曼提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:44,246 - my_logger - DEBUG - 【Stage1】任务：宁尚富提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:44,771 - my_logger - DEBUG - 【Stage1】任务：周茜提交的合作档口营业款付款申请的RUNNING任务已经处理过，不处理
+2026-01-16 14:35:44,771 - my_logger - INFO - 任务付款信息变更开始获取列表
+2026-01-16 14:35:45,173 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:35:45,185 - my_logger - INFO - 任务开票申请开始获取列表
+2026-01-16 14:35:48,351 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:35:48,507 - my_logger - INFO - 任务开票红冲申请开始获取列表
+2026-01-16 14:35:48,947 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:35:48,988 - my_logger - INFO - 处理任务 - PID: sWUNEAXkRWWKfWvB7S_fZA03401741052921, 类型: 3, 标题: 王雅苇提交的合作档口营业款付款申请
+2026-01-16 14:35:49,328 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:49,328 - my_logger - INFO - 处理任务 - PID: 58FIPF5LTFOTUf2O95nBVw03401743588411, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:35:49,680 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:49,681 - my_logger - INFO - 处理任务 - PID: f3etZc1kSX2t2ZnS2WG_IQ03401761556154, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:35:50,036 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:50,037 - my_logger - INFO - 处理任务 - PID: Jr9ZPfP_TPuJASzKg0FwGQ03401760089952, 类型: 3, 标题: 蒋安东提交的合作档口营业款付款申请
+2026-01-16 14:35:50,470 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:50,470 - my_logger - INFO - 处理任务 - PID: 1AaHNo-oRWONcDwQtSIdSg03401731552917, 类型: 3, 标题: 姜巧凤提交的合作档口营业款付款申请
+2026-01-16 14:35:50,818 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:50,818 - my_logger - INFO - 处理任务 - PID: Ai09oMlcSMCuhthZ0o-qZw03401752371435, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:35:51,233 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:51,234 - my_logger - INFO - 处理任务 - PID: gjo3_oJOTW6JgIP0gEMX8A03401741932428, 类型: 3, 标题: 方尚美提交的合作档口营业款付款申请
+2026-01-16 14:35:51,674 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:51,674 - my_logger - INFO - 处理任务 - PID: qQqbawFnQuW0_poyHnHrdQ03401752369514, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:35:52,017 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:52,017 - my_logger - INFO - 处理任务 - PID: cNFnkNsZSwCWnowxMBUlfg03401752405297, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:35:52,425 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:52,425 - my_logger - INFO - 处理任务 - PID: hn9veMsZTaqH-koux1Rpbw03401732764273, 类型: 3, 标题: 景川提交的合作档口营业款付款申请
+2026-01-16 14:35:52,781 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:52,782 - my_logger - INFO - 处理任务 - PID: 6-OgRNQ2Q9CJyHcXZHywuw03401760683645, 类型: 3, 标题: 陈丽娜提交的合作档口营业款付款申请
+2026-01-16 14:35:53,262 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:53,262 - my_logger - INFO - 处理任务 - PID: XXD1O96WRrWBQujPSzBgpQ03401761020074, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:35:53,625 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:53,625 - my_logger - INFO - 处理任务 - PID: Tkde9avSRhmGjyx6ehezwA03401739236254, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:35:53,988 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:53,988 - my_logger - INFO - 处理任务 - PID: OqtbK3RWSzW0QqJzGynQ4g03401763425796, 类型: 3, 标题: 刘廷明提交的合作档口营业款付款申请
+2026-01-16 14:35:54,400 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:54,400 - my_logger - INFO - 处理任务 - PID: xvhosiltQpilyHX1HeZXGQ03401765441665, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:35:54,756 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:54,757 - my_logger - INFO - 处理任务 - PID: HOUUg77TSaingckVyNKJWA03401744702958, 类型: 3, 标题: 王洁林提交的合作档口营业款付款申请
+2026-01-16 14:35:55,232 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:55,233 - my_logger - INFO - 处理任务 - PID: NimOFaxtR1KV5Sdo9jzSkA03401763554442, 类型: 3, 标题: 吕晓婕提交的合作档口营业款付款申请
+2026-01-16 14:35:55,645 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:55,645 - my_logger - INFO - 处理任务 - PID: hwpZNO2-Q4uVFHyGJZ3P_w03401747300020, 类型: 3, 标题: 姜巧凤提交的合作档口营业款付款申请
+2026-01-16 14:35:56,087 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:56,087 - my_logger - INFO - 处理任务 - PID: jAzQIuMbRum4_rIBfTl0iw03401732762489, 类型: 3, 标题: 景川提交的合作档口营业款付款申请
+2026-01-16 14:35:56,495 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:56,495 - my_logger - INFO - 处理任务 - PID: t9SyhdVjRbW8oB39CgicAA03401730345758, 类型: 3, 标题: 廖丹利提交的新版 合作档口营业款付款申请
+2026-01-16 14:35:56,821 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:56,821 - my_logger - INFO - 处理任务 - PID: XNl5PzlxQ5u3ocAjJ5zdyg03401761556292, 类型: 3, 标题: 刘强提交的合作档口营业款付款申请
+2026-01-16 14:35:57,133 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:57,134 - my_logger - INFO - 处理任务 - PID: jqNAKEJmTyyqj56bhRmaVw03401752138132, 类型: 3, 标题: 江明昭提交的合作档口营业款付款申请
+2026-01-16 14:35:57,571 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:57,571 - my_logger - INFO - 处理任务 - PID: 6NTWoxfCRs27nTf0mcPsBw03401733109986, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:35:57,909 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:57,910 - my_logger - INFO - 处理任务 - PID: Q5yY8z2lQuSdDqtjoY3Vqg03401761020392, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:35:58,275 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:58,275 - my_logger - INFO - 处理任务 - PID: XE2aVcxfTDeYUQCNnQcOQw03401746521019, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:35:58,618 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:58,619 - my_logger - INFO - 处理任务 - PID: DXhrkwi7TOamKLF-tgaI9Q03401752405923, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:35:59,017 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:59,018 - my_logger - INFO - 处理任务 - PID: 9W6RGEn3R2K4tBjTb38UgQ03401765529381, 类型: 3, 标题: 张春兰提交的合作档口营业款付款申请
+2026-01-16 14:35:59,456 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:59,456 - my_logger - INFO - 处理任务 - PID: 2Jea5A7bRXKaFtG5eWXgoA03401757305185, 类型: 3, 标题: 陈龙提交的合作档口营业款付款申请
+2026-01-16 14:35:59,787 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:35:59,788 - my_logger - INFO - 处理任务 - PID: Vpsyy1trTSWYAa4sfwjOiw03401755518210, 类型: 3, 标题: 刘海利提交的合作档口营业款付款申请
+2026-01-16 14:36:00,164 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:00,165 - my_logger - INFO - 处理任务 - PID: t-j6tlCcRNuiAM9GP_d0Jg03401734241239, 类型: 3, 标题: 王洁林提交的合作档口营业款付款申请
+2026-01-16 14:36:00,587 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:00,587 - my_logger - INFO - 处理任务 - PID: xruPRJxASjCZVWyunjTcMA03401761019741, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:36:00,930 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:00,931 - my_logger - INFO - 处理任务 - PID: 2W4h9ERaQ-iuh1GHU-_DUg03401755526174, 类型: 3, 标题: 刘海利提交的合作档口营业款付款申请
+2026-01-16 14:36:01,297 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:01,298 - my_logger - INFO - 处理任务 - PID: QSO_JaPIRbGy7H_0t0mkTg03401763544634, 类型: 3, 标题: 杨柳提交的合作档口营业款付款申请
+2026-01-16 14:36:01,689 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:01,690 - my_logger - INFO - 处理任务 - PID: DHNL0cHQTsqBxxb4-br-7w03401741933545, 类型: 3, 标题: 方尚美提交的合作档口营业款付款申请
+2026-01-16 14:36:02,074 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:02,074 - my_logger - INFO - 处理任务 - PID: lehHKetOQw2fEpoXHrZKdw03401742266961, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:36:02,418 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:02,418 - my_logger - INFO - 处理任务 - PID: buiZuUg_SZitfUv_J37KoA03401752405436, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:36:02,789 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:02,789 - my_logger - INFO - 处理任务 - PID: Qtl2IX1qRNKaInlp3NUd_Q03401732956129, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:36:03,121 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:03,122 - my_logger - INFO - 处理任务 - PID: 3z0ELzr7SVes3TCrA12h3A03401768355922, 类型: 3, 标题: 朱婷婷提交的合作档口营业款付款申请
+2026-01-16 14:36:03,463 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:03,464 - my_logger - INFO - 处理任务 - PID: Jf_5I9d9SImr7tEctaL5MA03401734316597, 类型: 3, 标题: 敖光磊提交的合作档口营业款付款申请
+2026-01-16 14:36:03,794 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:03,794 - my_logger - INFO - 处理任务 - PID: AR-8TSK7SDCzSjzfLoS_1w03401731992507, 类型: 3, 标题: 肖曼提交的合作档口营业款付款申请
+2026-01-16 14:36:04,124 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:04,124 - my_logger - INFO - 处理任务 - PID: dGAwapInT_qwcdtFH_ZYxg03401747298746, 类型: 3, 标题: 张继强提交的合作档口营业款付款申请
+2026-01-16 14:36:04,564 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:04,564 - my_logger - INFO - 处理任务 - PID: pMu8RJ5ATWq2LMMO58tbxA03401732162527, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:36:04,935 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:04,936 - my_logger - INFO - 处理任务 - PID: uhyuy8O3QA-RqJbdTb68xw03401758015690, 类型: 3, 标题: 王雅苇提交的合作档口营业款付款申请
+2026-01-16 14:36:05,296 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:05,297 - my_logger - INFO - 处理任务 - PID: 6fnRTgCxTXO9bgPLc1SNlw03401760090037, 类型: 3, 标题: 蒋安东提交的合作档口营业款付款申请
+2026-01-16 14:36:05,647 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:05,647 - my_logger - INFO - 处理任务 - PID: 35zYNHb4S52aXqqLwMLkiw03401732866431, 类型: 3, 标题: 蔡源鑫提交的合作档口营业款付款申请
+2026-01-16 14:36:05,986 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:05,986 - my_logger - INFO - 处理任务 - PID: lPGgWx0NRgKTIJ6fCk3WPA03401736913861, 类型: 3, 标题: 曲瑞雪提交的合作档口营业款付款申请
+2026-01-16 14:36:06,329 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:06,329 - my_logger - INFO - 处理任务 - PID: S1gLYj9eRdmclx5B20KIgQ03401761013692, 类型: 3, 标题: 陈龙提交的合作档口营业款付款申请
+2026-01-16 14:36:06,690 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:06,690 - my_logger - INFO - 处理任务 - PID: MYJRobCJSsGGI__kOvvnAw03401758790501, 类型: 3, 标题: 洪佳宜提交的合作档口营业款付款申请
+2026-01-16 14:36:07,094 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:07,095 - my_logger - INFO - 处理任务 - PID: 5SYpKadbT5W9GrxzJbf1LA03401765797193, 类型: 3, 标题: 何小清提交的合作档口营业款付款申请
+2026-01-16 14:36:07,506 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:07,506 - my_logger - INFO - 处理任务 - PID: ni2_VILVQl6jdftkz9THXw03401731579317, 类型: 3, 标题: 蔡源鑫提交的合作档口营业款付款申请
+2026-01-16 14:36:07,857 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:07,858 - my_logger - INFO - 处理任务 - PID: ViYS371IQEGK9di2NpL1cA03401761037399, 类型: 3, 标题: 陈文刚提交的合作档口营业款付款申请
+2026-01-16 14:36:08,204 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:08,205 - my_logger - INFO - 处理任务 - PID: gh6kN6imQuiMHG6HDwyXfw03401735794753, 类型: 3, 标题: 颜芳提交的合作档口营业款付款申请
+2026-01-16 14:36:08,594 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:08,595 - my_logger - INFO - 处理任务 - PID: MOtcAWvSQkSdNennSXzxUw03401733719769, 类型: 3, 标题: 石美琪提交的合作档口营业款付款申请
+2026-01-16 14:36:09,003 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:09,004 - my_logger - INFO - 处理任务 - PID: zZwPClqYRR2k3IFXpraxnw03401761020575, 类型: 3, 标题: 周茜提交的合作档口营业款付款申请
+2026-01-16 14:36:09,362 - my_logger - INFO - [Task3] 店经理暂未同意，不继续处理
+2026-01-16 14:36:09,363 - my_logger - DEBUG - 任务检查完成
+2026-01-16 14:39:04,754 - my_logger - INFO - 数据库初始化完成
+2026-01-16 14:39:04,865 - my_logger - DEBUG - 目录已存在: cache
+2026-01-16 14:39:04,865 - my_logger - DEBUG - 目录已存在: files
+2026-01-16 14:39:04,865 - my_logger - DEBUG - 目录已存在: logs
+2026-01-16 14:39:04,865 - my_logger - INFO - 启动线程: TaskProcessor
+2026-01-16 14:39:04,865 - my_logger - DEBUG - 开始检查任务
+2026-01-16 14:39:04,865 - my_logger - INFO - 任务合作档口营业款付款申请(新版)开始获取列表
+2026-01-16 14:39:07,276 - my_logger - DEBUG - 清除过期缓存 0 条
+2026-01-16 14:39:07,771 - my_logger - DEBUG - 【Stage1】任务：陈丽娜提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:08,263 - my_logger - DEBUG - 【Stage1】任务：韩冬梅提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:08,690 - my_logger - DEBUG - 【Stage1】任务：陈龙提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:09,054 - my_logger - DEBUG - 【Stage1】任务：陈文刚提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:09,545 - my_logger - DEBUG - 【Stage1】任务：叶萍提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:09,953 - my_logger - DEBUG - 【Stage1】任务：杨丽娇提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:10,383 - my_logger - DEBUG - 【Stage1】任务：刘强提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:10,760 - my_logger - DEBUG - 【Stage1】任务：刘廷明提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:11,111 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:11,544 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:11,960 - my_logger - DEBUG - 【Stage1】任务：杨柳提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:12,360 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:12,748 - my_logger - DEBUG - 【Stage1】任务：吕晓婕提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理
+2026-01-16 14:39:13,191 - my_logger - DEBUG - 【Stage1】任务：蔡源鑫提交的合作档口营业款付款申请的TERMINATED任务已经处理过，不处理

@@ -1,0 +1,30 @@
+{
+    "invoiceList": [
+        {
+            "amountWithoutTax": "52336.29",
+            "invoiceVerifyStatus": "NORMAL",
+            "invoiceVerifyId": "1846814029358387200",
+            "invoiceAmount": "52859.65",
+            "invoiceImgUrl": "https://down-cdn.dingtalk.com/ddmedia/iAELAqNqcGcDBgTNBOIFzQNBBtoAI4QBpCEnvUECqngp_S6jDOuRclUDzwAAAZKZWrmcBM4E-nsuBwAIAA.jpg",
+            "source": "DINGPAN",
+            "invoiceDate": "2024-10-09",
+            "invoicePdfUrl": "https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOAQirKgXOMgoSlgbaACOEAaQhMTr5AqpBuBRyzKs9Ehh8A88AAAGSmVrAVQTOBPrtkAcACAA.pdf",
+            "consumeId": "INVOICE_C_102D688EB991210522C10002",
+            "payeeName": "重庆卤历青年餐饮管理有限公司",
+            "spaceId": "25175049736",
+            "invoiceDupStatus": "NOT_DUP",
+            "requestId": "cfde2189-ab47-45cd-36c9-1e97890b7a7a",
+            "electronicUrl": "https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOAQirKgXOMgoSlgbaACOEAaQhMTr5AqpBuBRyzKs9Ehh8A88AAAGSmVrAVQTOBPrtkAcACAA.pdf",
+            "payerName": "快乐食间餐饮管理有限责任公司",
+            "invoiceType": "DIGITAL_NORMAL",
+            "invoiceId": "2024101715832434",
+            "invoiceNo": "24502000000093513090",
+            "taxAmount": "523.36",
+            "payeeTaxNo": "91500103MA61C0LB83",
+            "payerTaxNo": "91500109590509834J",
+            "expenseStatus": "WAIT_EXPENSE",
+            "fileId": "156754948154"
+        }
+    ],
+    "version": 2
+}

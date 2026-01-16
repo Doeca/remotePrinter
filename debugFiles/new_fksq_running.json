@@ -1,0 +1,263 @@
+{
+    "approver_user_ids": null,
+    "attached_process_instance_ids": [],
+    "biz_action": "NONE",
+    "biz_data": null,
+    "business_id": "202410171522000290145",
+    "cc_user_ids": null,
+    "create_time": "2024-10-17T15:22Z",
+    "finish_time": null,
+    "form_component_values": [
+        {
+            "biz_alias": "",
+            "component_type": "TextNote",
+            "ext_value": null,
+            "id": "TextNote_OUP2GUR12O00",
+            "name": null,
+            "value": "此流程仅限【合作档口付营业款】所用，其他费用申请请勿使用本流程。"
+        },
+        {
+            "biz_alias": "relationCost",
+            "component_type": "OpenDataField",
+            "ext_value": null,
+            "id": "OpenDataField_1LAZYW0NDEYO0",
+            "name": "关联申请单",
+            "value": null
+        },
+        {
+            "biz_alias": "company",
+            "component_type": "DDSelectField",
+            "ext_value": "{\"label\":\"快乐食间餐饮管理有限责任公司\",\"key\":\"COM_DEFAULT\"}",
+            "id": "DDSelectField_Z5XL7EIFOJK0",
+            "name": "企业主体",
+            "value": "快乐食间餐饮管理有限责任公司"
+        },
+        {
+            "biz_alias": "",
+            "component_type": "DDSelectField",
+            "ext_value": "{\"label\":\"西部战区\",\"key\":\"option_0\"}",
+            "id": "DDSelectField-K8DWDQO6",
+            "name": "请选择归属战区",
+            "value": "西部战区"
+        },
+        {
+            "biz_alias": "",
+            "component_type": "TextField",
+            "ext_value": null,
+            "id": "TextField_1AMYJEVC6JR40",
+            "name": "门店名称",
+            "value": "23店西南政法大学"
+        },
+        {
+            "biz_alias": "",
+            "component_type": "TextField",
+            "ext_value": null,
+            "id": "TextField_22VOUXLII5LS0",
+            "name": "营业款结算月份",
+            "value": "9月份"
+        },
+        {
+            "biz_alias": "addReimbursementDetail",
+            "component_type": "TableField",
+            "ext_value": "{\"statValue\":[{\"id\":\"MoneyField_1ZSMX9Y5B0CG0\",\"label\":\"总报销金额\",\"upper\":\"壹拾叁万零伍佰贰拾捌元捌角叁分\",\"num\":\"130528.83\"}],\"componentName\":\"TableField\"}",
+            "id": "TableField_18GP39Q7V5Q80",
+            "name": "报销明细",
+            "value": "[{\"rowValue\":[{\"bizAlias\":\"\",\"label\":\"档口名称\",\"value\":\"卤历青年\",\"key\":\"TextField_1612AXTJ9ZLS0\",\"mask\":false},{\"bizAlias\":\"reimbursementMoney\",\"label\":\"报销金额（元）\",\"value\":\"52859.65\",\"key\":\"MoneyField_1ZSMX9Y5B0CG0\",\"mask\":false},{\"bizAlias\":\"electronicInvoice\",\"extendValue\":\"{\\\"invoiceList\\\":[{\\\"amountWithoutTax\\\":\\\"52336.29\\\",\\\"invoiceVerifyStatus\\\":\\\"NORMAL\\\",\\\"invoiceVerifyId\\\":\\\"1846814029358387200\\\",\\\"invoiceAmount\\\":\\\"52859.65\\\",\\\"invoiceImgUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNqcGcDBgTNBOIFzQNBBtoAI4QBpCEnvUECqngp_S6jDOuRclUDzwAAAZKZWrmcBM4E-nsuBwAIAA.jpg\\\",\\\"source\\\":\\\"DINGPAN\\\",\\\"invoiceDate\\\":\\\"2024-10-09\\\",\\\"invoicePdfUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOAQirKgXOMgoSlgbaACOEAaQhMTr5AqpBuBRyzKs9Ehh8A88AAAGSmVrAVQTOBPrtkAcACAA.pdf\\\",\\\"consumeId\\\":\\\"INVOICE_C_102D688EB991210522C10002\\\",\\\"payeeName\\\":\\\"重庆卤历青年餐饮管理有限公司\\\",\\\"spaceId\\\":\\\"25175049736\\\",\\\"invoiceDupStatus\\\":\\\"NOT_DUP\\\",\\\"requestId\\\":\\\"cfde2189-ab47-45cd-36c9-1e97890b7a7a\\\",\\\"electronicUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOAQirKgXOMgoSlgbaACOEAaQhMTr5AqpBuBRyzKs9Ehh8A88AAAGSmVrAVQTOBPrtkAcACAA.pdf\\\",\\\"payerName\\\":\\\"快乐食间餐饮管理有限责任公司\\\",\\\"invoiceType\\\":\\\"DIGITAL_NORMAL\\\",\\\"invoiceId\\\":\\\"2024101715832434\\\",\\\"invoiceNo\\\":\\\"24502000000093513090\\\",\\\"taxAmount\\\":\\\"523.36\\\",\\\"payeeTaxNo\\\":\\\"91500103MA61C0LB83\\\",\\\"payerTaxNo\\\":\\\"91500109590509834J\\\",\\\"expenseStatus\\\":\\\"WAIT_EXPENSE\\\",\\\"fileId\\\":\\\"156754948154\\\"}],\\\"version\\\":2}\",\"label\":\"发票\",\"value\":\"[\\\"重庆卤历青年餐饮管理有限公司\\\"]\",\"key\":\"InvoiceField_1O3588CIWKF40\",\"mask\":false}],\"rowNumber\":\"TableField_18GP39Q7V5Q80_13GQY3EYFXMO0\"},{\"rowValue\":[{\"bizAlias\":\"\",\"label\":\"档口名称\",\"value\":\"味子夫\",\"key\":\"TextField_1612AXTJ9ZLS0\",\"mask\":false},{\"bizAlias\":\"reimbursementMoney\",\"label\":\"报销金额（元）\",\"value\":\"77669.18\",\"key\":\"MoneyField_1ZSMX9Y5B0CG0\",\"mask\":false},{\"bizAlias\":\"electronicInvoice\",\"extendValue\":\"{\\\"invoiceList\\\":[{\\\"amountWithoutTax\\\":\\\"76900.18\\\",\\\"invoiceVerifyStatus\\\":\\\"NORMAL\\\",\\\"invoiceVerifyId\\\":\\\"1846814033615605760\\\",\\\"invoiceAmount\\\":\\\"77669.18\\\",\\\"invoiceImgUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNqcGcDBgTNBOIFzQNBBtoAI4QBpCE9VrUCqhdIhNlY0XhZsMYDzwAAAZKZWrmaBM4A07VNBwAIAA.jpg\\\",\\\"source\\\":\\\"DINGPAN\\\",\\\"invoiceDate\\\":\\\"2024-10-09\\\",\\\"invoicePdfUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOA-KylQXON5huvAbaACOEAaQhBLmGAqpFThxzTzuOuRYUA88AAAGSmVrBngTOAkfg7QcACAA.pdf\\\",\\\"consumeId\\\":\\\"INVOICE_C_102D688EB991210522C10002\\\",\\\"payeeName\\\":\\\"成华区橙璟劳务服务部（个体工商户）\\\",\\\"spaceId\\\":\\\"25175049736\\\",\\\"invoiceDupStatus\\\":\\\"NOT_DUP\\\",\\\"requestId\\\":\\\"cfde2189-ab47-45cd-36c9-1e97890b7a7a\\\",\\\"electronicUrl\\\":\\\"https://down-cdn.dingtalk.com/ddmedia/iAELAqNwZGYDBgTOA-KylQXON5huvAbaACOEAaQhBLmGAqpFThxzTzuOuRYUA88AAAGSmVrBngTOAkfg7QcACAA.pdf\\\",\\\"payerName\\\":\\\"快乐食间餐饮管理有限责任公司\\\",\\\"invoiceType\\\":\\\"DIGITAL_NORMAL\\\",\\\"invoiceId\\\":\\\"2024101715832433\\\",\\\"invoiceNo\\\":\\\"24512000000213745822\\\",\\\"taxAmount\\\":\\\"769.00\\\",\\\"payeeTaxNo\\\":\\\"92510108MADWUH2A4Q\\\",\\\"payerTaxNo\\\":\\\"91500109590509834J\\\",\\\"expenseStatus\\\":\\\"WAIT_EXPENSE\\\",\\\"fileId\\\":\\\"156754990054\\\"}],\\\"version\\\":2}\",\"label\":\"发票\",\"value\":\"[\\\"成华区橙璟劳务服务部(个体工商户)\\\"]\",\"key\":\"InvoiceField_1O3588CIWKF40\",\"mask\":false}],\"rowNumber\":\"TableField_18GP39Q7V5Q80_E77J34RZY000\"}]"
+        },
+        {
+            "biz_alias": "electronicInvoiceOut",
+            "component_type": "InvoiceField",
+            "ext_value": null,
+            "id": "InvoiceField_EP4RJ6Z7QHS0",
+            "name": "发票",
+            "value": null
+        },
+        {
+            "biz_alias": "totalReimbursementMoney",
+            "component_type": "MoneyField",
+            "ext_value": "{\"upper\":\"壹拾叁万零伍佰贰拾捌元捌角叁分\",\"componentName\":\"MoneyField\"}",
+            "id": "MoneyField_14273NXEPRMK0",
+            "name": "报销总额（元）",
+            "value": "130528.83"
+        },
+        {
+            "biz_alias": "principal",
+            "component_type": "InnerContactField",
+            "ext_value": null,
+            "id": "InnerContactField_N3GOHUPW31S0",
+            "name": "归属人",
+            "value": null
+        },
+        {
+            "biz_alias": "recordDept",
+            "component_type": "DepartmentField",
+            "ext_value": null,
+            "id": "DepartmentField_1LD1F8LC5X8G0",
+            "name": "归属部门",
+            "value": null
+        },
+        {
+            "biz_alias": "remark",
+            "component_type": "TextareaField",
+            "ext_value": null,
+            "id": "TextareaField_FN4KNSQB17K0",
+            "name": "备注",
+            "value": null
+        },
+        {
+            "biz_alias": "project",
+            "component_type": "DDSelectField",
+            "ext_value": null,
+            "id": "DDSelectField_QPFE7B6U90G0",
+            "name": "项目",
+            "value": null
+        },
+        {
+            "biz_alias": "customer",
+            "component_type": "DDSelectField",
+            "ext_value": null,
+            "id": "DDSelectField_DKYFDGJZ59K0",
+            "name": "客户",
+            "value": null
+        },
+        {
+            "biz_alias": "supplier",
+            "component_type": "DDSelectField",
+            "ext_value": null,
+            "id": "DDSelectField_KPFEA5NQLTS0",
+            "name": "供应商",
+            "value": null
+        },
+        {
+            "biz_alias": "recipientAccount",
+            "component_type": "RecipientAccountField",
+            "ext_value": null,
+            "id": "RecipientAccountField_1BGQT9GVGM5C0",
+            "name": "收款账户",
+            "value": null
+        },
+        {
+            "biz_alias": "product",
+            "component_type": "DDSelectField",
+            "ext_value": null,
+            "id": "DDSelectField_URDXC8S3K680",
+            "name": "商品",
+            "value": null
+        },
+        {
+            "biz_alias": "paymentAccount",
+            "component_type": "DDSelectField",
+            "ext_value": null,
+            "id": "DDSelectField_12IJ9E22I98W0",
+            "name": "企业付款账户",
+            "value": null
+        },
+        {
+            "biz_alias": "recordTime",
+            "component_type": "DDDateField",
+            "ext_value": null,
+            "id": "DDDateField_IIF5YHLYSI00",
+            "name": "入账时间",
+            "value": null
+        },
+        {
+            "biz_alias": "payTime",
+            "component_type": "DDDateField",
+            "ext_value": null,
+            "id": "DDDateField_10B6FCE4Z29S0",
+            "name": "付款时间",
+            "value": null
+        },
+        {
+            "biz_alias": "costControlServerInfo",
+            "component_type": "TextareaField",
+            "ext_value": null,
+            "id": "TextareaField_1SKNJ0FKMDHC0",
+            "name": "费控信息",
+            "value": "budget"
+        },
+        {
+            "biz_alias": null,
+            "component_type": "DDPhotoField",
+            "ext_value": null,
+            "id": "图片",
+            "name": "图片",
+            "value": "[\"https://static.dingtalk.com/media/lQLPD3sooAa4LmfNAl_NBGGw2rD7kgIBws0G9_TJF83JAA_1121_607.png\"]"
+        },
+        {
+            "biz_alias": null,
+            "component_type": "DDAttachment",
+            "ext_value": null,
+            "id": "附件",
+            "name": "附件",
+            "value": null
+        },
+        {
+            "biz_alias": null,
+            "component_type": "TextareaField",
+            "ext_value": null,
+            "id": "TextareaField-JP3NPG3Q",
+            "name": "签字处：",
+            "value": null
+        },
+        {
+            "biz_alias": null,
+            "component_type": "RelateField",
+            "ext_value": null,
+            "id": "RelateField-JZZFJPOU",
+            "name": "关联审批单",
+            "value": null
+        },
+        {
+            "biz_alias": "",
+            "component_type": "TextNote",
+            "ext_value": null,
+            "id": "TextNote_23NZGV0JO15S0",
+            "name": null,
+            "value": "【提醒】流程审批结束表示审批已经完成，不代表立即可付款，请报销人将相关纸质单据递送给财务部，财务部将统一安排支付！"
+        },
+        {
+            "biz_alias": null,
+            "component_type": "TextNote",
+            "ext_value": null,
+            "id": "TextNote-KDFH65EO",
+            "name": null,
+            "value": "【注意】提交审批单前，请检查下面↓流程路径是否异常，如流程明显错误、未匹配到审批人等，请联系信息部！"
+        }
+    ],
+    "main_process_instance_id": null,
+    "operation_records": [
+        {
+            "activity_id": null,
+            "attachments": [],
+            "cc_user_ids": null,
+            "date": "2024-10-17T15:22Z",
+            "images": [],
+            "remark": null,
+            "result": "NONE",
+            "show_name": "提交申请",
+            "type": "START_PROCESS_INSTANCE",
+            "user_id": "596864031527317894"
+        }
+    ],
+    "originator_dept_id": "60295152",
+    "originator_dept_name": "拿好店-工程中心",
+    "originator_user_id": "596864031527317894",
+    "result": "",
+    "status": "RUNNING",
+    "tasks": [
+        {
+            "activity_id": "1e67_7b10",
+            "create_time": "2024-10-17T15:22Z",
+            "finish_time": null,
+            "mobile_url": "aflow.dingtalk.com?procInsId=9YcFDxKXQuq8Ku93YiILIw03401729149749&taskId=89606304255&businessId=202410171522000290145",
+            "pc_url": "aflow.dingtalk.com?procInsId=9YcFDxKXQuq8Ku93YiILIw03401729149749&taskId=89606304255&businessId=202410171522000290145",
+            "process_instance_id": null,
+            "result": "NONE",
+            "status": "RUNNING",
+            "task_id": 89606304255,
+            "user_id": "1725480640842985"
+        }
+    ],
+    "title": "汪代伟提交的合作档口营业款付款申请(新版）"
+}

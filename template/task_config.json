@@ -1,0 +1,130 @@
+{
+  "task_list": [
+    {
+      "code": "PROC-203976C0-5A6E-4943-B716-5043B7F4262C",
+      "task": 3,
+      "statuses": ["COMPLETED", "RUNNING"],
+      "results": ["agree", ""],
+      "name": "合作档口营业款付款申请(新版)"
+    },
+    {
+      "code": "PROC-4AD43F2F-8B07-4D46-9D1B-5DCD4342627E",
+      "task": 5,
+      "statuses": ["COMPLETED"],
+      "results": ["agree"],
+      "name": "付款信息变更"
+    },
+    {
+      "code": "PROC-33B576A9-B68C-4338-A135-CE48B7C67E2E",
+      "task": 6,
+      "statuses": ["COMPLETED"],
+      "results": ["agree"],
+      "name": "开票申请"
+    },
+    {
+      "code": "PROC-C7373528-790F-4A9A-B5FE-FD9564658B4E",
+      "task": 7,
+      "statuses": ["COMPLETED"],
+      "results": ["agree"],
+      "name": "开票红冲申请"
+    }
+  ],
+  "3": {
+    "name": "合作档口营业款付款申请(新版)",
+    "template": "fksq_new.xlsx",
+    "title_replace": "提交的合作档口营业款付款申请",
+    "output_suffix": "",
+    "cell_mappings": {
+      "B2": {"type": "business_id"},
+      "B3": {"type": "title_modified"},
+      "B4": {"type": "originator_dept"},
+      "B5": {"type": "field", "key": "企业主体"},
+      "B6": {"type": "field", "key": "请选择归属战区"},
+      "B7": {"type": "field", "key": "门店名称"},
+      "B8": {"type": "field", "key": "营业款结算月份"}
+    },
+    "custom_processor": "process_task3_details",
+    "operation_records_start": 18,
+    "operation_records_style": "simple",
+    "print_mode": "conditional"
+  },
+  "5": {
+    "name": "付款信息变更",
+    "template": "fkxxbg.xlsx",
+    "title_replace": "提交的付款信息变更",
+    "output_suffix": "",
+    "cell_mappings": {
+      "B2": {"type": "business_id"},
+      "B3": {"type": "title_modified"},
+      "B4": {"type": "originator_dept"},
+      "B5": {"type": "field", "key": "申请门店"},
+      "B6": {"type": "field", "key": "档口名称"},
+      "B7": {"type": "field", "key": "信息错误类型"},
+      "B8": {"type": "field", "key": "其他补充"},
+      "B10": {"type": "field", "key": "户名"},
+      "B11": {"type": "field", "key": "银行卡号"},
+      "B12": {"type": "field", "key": "银行开户行"},
+      "B13": {"type": "field", "key": "银行卡照片"},
+      "B15": {"type": "field", "key": "备注"}
+    },
+    "operation_records_start": 16,
+    "operation_records_title": "审批流程",
+    "operation_records_style": "simple",
+    "print_mode": "a4"
+  },
+  "6": {
+    "name": "开票申请",
+    "template": "kpsq.xlsx",
+    "title_replace": "提交的付款信息变更",
+    "output_suffix": "",
+    "cell_mappings": {
+      "B2": {"type": "business_id"},
+      "B3": {"type": "title_modified"},
+      "B4": {"type": "originator_dept"},
+      "B5": {"type": "field", "key": "申请人归属"},
+      "B6": {"type": "field", "key": "部门/门店"},
+      "B7": {"type": "field", "key": "企业主体"},
+      "B8": {"type": "field", "key": "是否已完成收款"},
+      "B9": {"type": "field", "key": "回款方式"},
+      "B10": {"type": "field", "key": "票种"},
+      "B11": {"type": "field", "key": "开票总额（元）"},
+      "B12": {"type": "field", "key": "收入类型"},
+      "B13": {"type": "field", "key": "收入类型时间段"},
+      "B14": {"type": "field", "key": "发票备注栏"},
+      "B15": {"type": "field", "key": "购方抬头"},
+      "B16": {"type": "field", "key": "购方纳税人识别号"},
+      "B17": {"type": "field", "key": "说明"},
+      "B18": {"type": "field", "key": "商品明细", "format": "goods_detail"}
+    },
+    "operation_records_start": 20,
+    "operation_records_style": "detailed",
+    "print_area": true,
+    "print_mode": "a4"
+  },
+  "7": {
+    "name": "开票红冲申请",
+    "template": "kphcsq.xlsx",
+    "title_replace": "提交的付款信息变更",
+    "output_suffix": "",
+    "cell_mappings": {
+      "B2": {"type": "business_id"},
+      "B3": {"type": "title_modified"},
+      "B4": {"type": "originator_dept"},
+      "B5": {"type": "field", "key": "申请人归属"},
+      "B6": {"type": "field", "key": "部门/门店"},
+      "B7": {"type": "field", "key": "企业主体"},
+      "B8": {"type": "field", "key": "是否已完成收款"},
+      "B9": {"type": "field", "key": "回款方式"},
+      "B10": {"type": "field", "key": "票种"},
+      "B11": {"type": "field", "key": "红冲金额（负数）"},
+      "B13": {"type": "field", "key": "发票号码"},
+      "B14": {"type": "field", "key": "开票日期"},
+      "B16": {"type": "field", "key": "红冲发票原因"},
+      "B17": {"type": "field", "key": "原发票附件上传", "format": "invoice_attachments"}
+    },
+    "operation_records_start": 19,
+    "operation_records_style": "detailed",
+    "print_area": true,
+    "print_mode": "a4"
+  }
+}

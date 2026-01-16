@@ -4,7 +4,6 @@ domain.py
 .\cache
 cache
 __pycache__
-*.json
 test.json
 .DS_Store
 .env

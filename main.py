@@ -2,10 +2,8 @@ import threading
 import time
 import os
 import shutil
-import task3
-import task5
-import task6
-import task7
+import json
+import task_handler
 import dingLib
 from logsys import logger
 import db
@@ -16,16 +14,18 @@ CHECK_INTERVAL_MINUTES = 15  # 检查间隔（分钟）
 WORK_HOUR_START = 8  # 工作时间开始
 WORK_HOUR_END = 20   # 工作时间结束
 
-ALL_TASKS = [
-    {"code": "PROC-203976C0-5A6E-4943-B716-5043B7F4262C",
-     "task": 3, "statuses": ["COMPLETED", "RUNNING"], "results": ["agree", ""], "name": "合作档口营业款付款申请(新版)"},
-    {"code": "PROC-4AD43F2F-8B07-4D46-9D1B-5DCD4342627E",
-     "task": 5, "statuses": ["COMPLETED"], "results": ["agree"], "name": "付款信息变更"},
-    {"code": "PROC-33B576A9-B68C-4338-A135-CE48B7C67E2E",
-     "task": 6, "statuses": ["COMPLETED"], "results": ["agree"], "name": "开票申请"},
-    {"code": "PROC-C7373528-790F-4A9A-B5FE-FD9564658B4E",
-     "task": 7, "statuses": ["COMPLETED"], "results": ["agree"], "name": "开票红冲申请"}
-]
+# 从配置文件加载任务列表
+def load_task_config():
+    """从配置文件加载任务列表"""
+    try:
+        with open('./template/task_config.json', 'r', encoding='utf-8') as f:
+            config = json.load(f)
+            return config.get('task_list', [])
+    except Exception as ex:
+        logger.exception("加载任务配置失败")
+        return []
+
+ALL_TASKS = load_task_config()
 
 
 def class_to_dict(obj):
@@ -127,24 +127,13 @@ def process_pending_tasks():
             status = task_data.get('status', '')
             
             logger.info(f"处理任务 - PID: {pid}, 类型: {task_type}, 标题: {title}")
-            # 任务处理函数映射
-            task_handlers = {
-                3: lambda: task3.handle_all(pid, status, title),
-                5: lambda: task5.handle_all(pid, title),
-                6: lambda: task6.handle_all(pid, title),
-                7: lambda: task7.handle_all(pid, title)
-            }
-            
-            handler = task_handlers.get(task_type)
-            if handler:
-                res = handler()
-                if res:
-                    task_id = task_data.get('id')
-                    if task_id:
-                        db.delete_task(task_id)
-                        logger.info(f"任务完成并删除 - ID: {task_id}")
-            else:
-                logger.warning(f"未知的任务类型: {task_type}")
+            # 統合タスクハンドラーを使用
+            res = task_handler.handle_task(pid, task_type, status, title)
+            if res:
+                task_id = task_data.get('id')
+                if task_id:
+                    db.delete_task(task_id)
+                    logger.info(f"任务完成并删除 - ID: {task_id}")
         except Exception as ex:
             logger.exception(f"处理任务时出错 - PID: {task_data.get('pid', 'Unknown')}")
 
