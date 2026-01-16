@@ -133,28 +133,46 @@ def _xlsx2pdf_excel(exp, pdfp, retry_count=0):
         raise
         
     finally:
-        # 清理资源
+        # 清理资源 - 更安全的顺序
         try:
             if books is not None:
-                books.Close(SaveChanges=False)
-                del books
+                try:
+                    books.Saved = True  # 标记为已保存，避免保存提示
+                    books.Close(SaveChanges=False)
+                except Exception as e:
+                    logger.warning(f"关闭工作簿失败: {e}")
+                try:
+                    del books
+                except Exception:
+                    pass
+                books = None
         except Exception as e:
-            logger.warning(f"关闭工作簿失败: {e}")
+            logger.warning(f"清理工作簿引用失败: {e}")
         
         try:
             if xlApp is not None:
-                xlApp.Quit()
-                del xlApp
+                try:
+                    xlApp.DisplayAlerts = False
+                    xlApp.Quit()
+                except Exception as e:
+                    logger.warning(f"退出 Excel 失败: {e}")
+                try:
+                    del xlApp
+                except Exception:
+                    pass
+                xlApp = None
         except Exception as e:
-            logger.warning(f"退出 Excel 失败: {e}")
+            logger.warning(f"清理 Excel 引用失败: {e}")
         
-        # 等待 Excel 完全退出
-        time.sleep(1)
+        # 等待 Excel 进程完全退出
+        time.sleep(1.5)
         
+        # COM 反初始化（放在最后，且增加保护）
         try:
             pythoncom.CoUninitialize()
         except Exception as e:
             logger.warning(f"COM 反初始化失败: {e}")
+            # 忽略反初始化错误，不影响结果
     
     # 验证输出
     if not os.path.exists(pdf_path):

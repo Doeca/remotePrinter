@@ -345,10 +345,10 @@ class TaskHandler:
             # PDF変換
             temp_pdf = f"./cache/{pid}_temp.pdf"
             convert.xlsx2pdf(cache_file, temp_pdf)
-            
-            # PDF→画像
-            for d in pdfmod.pdfexport(temp_pdf, f"{temp_pdf}_export"):
-                images.append(d)
+            logger.info("完成PDF转换")
+            # # PDF→画像
+            # for d in pdfmod.pdfexport(temp_pdf, f"{temp_pdf}_export"):
+            #     images.append(d)
             
             # 画像→PDF
             output_pdf = f"./files/{pid}{suffix}.pdf"
