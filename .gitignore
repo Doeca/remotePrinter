@@ -13,3 +13,5 @@ test.json
 venv
 debugFiles\*.json
 .test
+logs
+.\logs
