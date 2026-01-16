@@ -202,8 +202,9 @@ class MainTask(threading.Thread):
     def process_tasks_safely(self):
         """安全地处理任务（带异常捕获）"""
         try:
-            fetch_and_create_tasks()
             process_pending_tasks()
+            fetch_and_create_tasks()
+            
         except Exception as ex:
             logger.exception(f"处理任务时出错")
 
@@ -225,8 +226,9 @@ class MainTask(threading.Thread):
             if self.is_working_hours():
                 if os.path.isfile(".debug"):
                     # 调试模式：不捕获异常
-                    fetch_and_create_tasks()
                     process_pending_tasks()
+                    fetch_and_create_tasks()
+                    
                 else:
                     # 生产模式：捕获异常
                     self.process_tasks_safely()

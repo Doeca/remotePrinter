@@ -5,6 +5,7 @@ task_config.jsonの設定に基づいて各種タスクを処理
 import os
 import json
 import shutil
+import time
 import openpyxl
 from openpyxl.styles import Alignment, Font, Border, Side, PatternFill
 import dingLib
@@ -321,6 +322,21 @@ class TaskHandler:
             # テンプレートコピー
             template_base = os.path.splitext(template)[0]
             cache_file = f"./cache/{pid}_{template_base}.xlsx"
+            
+            # 既存ファイルを削除してからコピー（ロック回避）
+            if os.path.exists(cache_file):
+                try:
+                    os.remove(cache_file)
+                    time.sleep(0.1)  # 短い待機時間
+                except PermissionError:
+                    logger.warning(f"ファイルがロックされています、削除を再試行: {cache_file}")
+                    time.sleep(1)
+                    try:
+                        os.remove(cache_file)
+                    except Exception as e:
+                        logger.error(f"ファイル削除失敗: {e}")
+                        raise
+            
             shutil.copyfile(f"./template/{template}", cache_file)
             
             # Excel処理

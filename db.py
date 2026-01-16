@@ -239,13 +239,13 @@ def add_task(instance_id: str, status: str, task_type: int, title: str) -> bool:
 
 
 def get_all_tasks() -> list:
-    """获取所有任务"""
+    """获取所有任务（按创建时间降序，最新的任务优先）"""
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         cursor.execute('''
             SELECT id, instance_id, status, task_type, title FROM tasks 
-            ORDER BY created_at ASC
+            ORDER BY created_at DESC
         ''')
         results = []
         for row in cursor.fetchall():
