@@ -211,6 +211,20 @@ class MainTask(threading.Thread):
             time.sleep(CHECK_INTERVAL_MINUTES * 60)
 
 
+def init_directories():
+    """初始化必要的目录"""
+    directories = ['cache', 'files', 'logs']
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logger.info(f"创建目录: {directory}")
+        else:
+            logger.debug(f"目录已存在: {directory}")
+
+
 if __name__ == "__main__":
+    # 初始化必要的目录
+    init_directories()
+    
     main_thread = MainTask(1, "TaskProcessor")
     main_thread.run()

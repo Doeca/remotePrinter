@@ -10,3 +10,4 @@ test.json
 .env
 .debug
 *.pdf
+.venv
