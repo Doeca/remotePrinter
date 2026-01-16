@@ -137,6 +137,49 @@ def process_pending_tasks():
         except Exception as ex:
             logger.exception(f"处理任务时出错 - PID: {task_data.get('pid', 'Unknown')}")
 
+
+def test_latest_tasks_in_debug_mode():
+    """调试模式：从数据库中取每种任务的最新一条进行测试"""
+    logger.info("=" * 60)
+    logger.info("调试模式：开始测试每种任务类型的最新记录")
+    logger.info("=" * 60)
+    
+    latest_tasks = db.get_latest_records_for_all_task_types()
+    
+    if not latest_tasks:
+        logger.warning("未找到任何历史任务记录，无法进行测试")
+        return
+    
+    logger.info(f"找到 {len(latest_tasks)} 种任务类型的最新记录")
+    
+    for task_data in latest_tasks:
+        try:
+            pid = task_data.get('pid', 'Unknown')
+            task_type = task_data.get('task')
+            title = task_data.get('title', 'Unknown')
+            status = task_data.get('status', '')
+            
+            logger.info(f"\n{'='*50}")
+            logger.info(f"[测试] 任务类型: {task_type}, PID: {pid}")
+            logger.info(f"[测试] 标题: {title}, 状态: {status}")
+            logger.info(f"{'='*50}")
+            
+            # 执行任务处理
+            res = task_handler.handle_task(pid, task_type, status, title)
+            
+            if res:
+                logger.info(f"[测试成功] 任务类型 {task_type} 处理完成")
+            else:
+                logger.warning(f"[测试失败] 任务类型 {task_type} 处理失败")
+                
+        except Exception as ex:
+            logger.exception(f"[测试异常] 任务类型 {task_type}, PID: {task_data.get('pid', 'Unknown')}")
+    
+    logger.info("\n" + "=" * 60)
+    logger.info("调试模式：所有任务测试完成")
+    logger.info("=" * 60)
+
+
 class MainTask(threading.Thread):
     """主任务线程，负责定期检查和处理钉钉任务"""
     
@@ -214,6 +257,20 @@ def init_directories():
 if __name__ == "__main__":
     # 初始化必要的目录
     init_directories()
+    
+    # 检查是否为调试模式且存在测试标记文件
+    if os.path.isfile(".debug"):
+        logger.info("检测到调试模式")
+        
+        # 检查是否存在测试标记
+        if os.path.isfile(".test"):
+            logger.info("检测到测试标记，将执行历史任务测试")
+            test_latest_tasks_in_debug_mode()
+            logger.info("测试完成，程序退出")
+            exit(0)
+        else:
+            logger.info("未检测到测试标记，正常运行")
+            logger.info("提示：创建 .test 文件可以在调试模式下执行历史任务测试")
     
     main_thread = MainTask(1, "TaskProcessor")
     main_thread.run()

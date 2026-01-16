@@ -1,0 +1,20 @@
+# DingTalk/Alibaba Cloud SDK
+alibabacloud-dingtalk>=2.0.0
+alibabacloud-tea-openapi>=0.3.0
+alibabacloud-tea-util>=0.3.0
+
+# Excel/Office Processing
+openpyxl>=3.1.0
+pywin32>=306; sys_platform == 'win32'
+
+# PDF Processing
+PyMuPDF>=1.23.0
+PyPDF2>=3.0.0
+
+# Image Processing
+Pillow>=10.0.0
+python-magic-bin>=0.4.14; sys_platform == 'win32'
+python-magic>=0.4.27; sys_platform != 'win32'
+
+# HTTP/API
+requests>=2.31.0

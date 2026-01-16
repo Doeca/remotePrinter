@@ -286,5 +286,93 @@ def check_task_exists(instance_id: str, status: str) -> bool:
         return False
 
 
+def get_latest_record_by_task_type(task_type: int) -> dict:
+    """获取指定任务类型的最新一条记录（基于COMPLETED状态）"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+        
+        # 从records表中查找该任务类型对应的最新COMPLETED记录
+        # record_key格式为: {instanceID}_COMPLETED
+        cursor.execute('''
+            SELECT record_key FROM records 
+            WHERE record_key LIKE '%_COMPLETED'
+            ORDER BY created_at DESC
+        ''')
+        
+        # 需要通过instanceID关联到tasks表来确认任务类型
+        for row in cursor.fetchall():
+            record_key = row[0]
+            instance_id = record_key.replace('_COMPLETED', '')
+            
+            # 查询这个instance_id的任务类型
+            cursor2 = conn.cursor()
+            cursor2.execute('''
+                SELECT instance_id, status, task_type, title 
+                FROM tasks 
+                WHERE instance_id = ? AND task_type = ?
+                ORDER BY created_at DESC
+                LIMIT 1
+            ''', (instance_id, task_type))
+            
+            task_row = cursor2.fetchone()
+            if task_row:
+                conn.close()
+                return {
+                    'pid': task_row[0],
+                    'status': task_row[1],
+                    'task': task_row[2],
+                    'title': task_row[3]
+                }
+        
+        # 如果没有找到COMPLETED的，尝试找任何状态的
+        cursor.execute('''
+            SELECT instance_id, status, task_type, title 
+            FROM tasks 
+            WHERE task_type = ?
+            ORDER BY created_at DESC
+            LIMIT 1
+        ''', (task_type,))
+        
+        task_row = cursor.fetchone()
+        conn.close()
+        
+        if task_row:
+            return {
+                'pid': task_row[0],
+                'status': task_row[1],
+                'task': task_row[2],
+                'title': task_row[3]
+            }
+        return None
+    except Exception as e:
+        logger.error(f"获取最新任务记录失败 (task_type={task_type}): {e}")
+        return None
+
+
+def get_latest_records_for_all_task_types() -> list:
+    """获取所有任务类型的最新一条记录"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        # 获取所有不同的任务类型
+        cursor.execute('SELECT DISTINCT task_type FROM tasks ORDER BY task_type')
+        task_types = [row[0] for row in cursor.fetchall()]
+        conn.close()
+        
+        results = []
+        for task_type in task_types:
+            record = get_latest_record_by_task_type(task_type)
+            if record:
+                results.append(record)
+        
+        return results
+    except Exception as e:
+        logger.error(f"获取所有任务类型的最新记录失败: {e}")
+        return []
+
+
 # 初始化数据库
 init_db()
