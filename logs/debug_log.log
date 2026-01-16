@@ -8193,3 +8193,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'task_config.json'
 2026-01-16 14:55:04,914 - my_logger - INFO - 调试模式：所有任务测试完成
 2026-01-16 14:55:04,914 - my_logger - INFO - ============================================================
 2026-01-16 14:55:04,914 - my_logger - INFO - 测试完成，程序退出
+2026-01-16 15:04:46,039 - my_logger - INFO - 数据库初始化完成
+2026-01-16 15:04:46,058 - my_logger - INFO - 模拟回滚 - 将删除 records: 7091, ids_cache: 2193, tasks: 54
+2026-01-16 15:11:08,219 - my_logger - INFO - 已清空 records 表，删除了 7091 条记录
+2026-01-16 15:11:08,253 - my_logger - INFO - 成功从 ./record.dat 重置 records 表，导入 7051 条记录

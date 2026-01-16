@@ -3,8 +3,17 @@ import os
 import json
 from logsys import logger
 
-# 数据库文件存储在 logs 目录下
-DB_PATH = os.path.join("logs", "remotePrinter.db")
+# 根据运行模式选择不同的数据库文件
+def get_db_path():
+    """根据是否存在.test文件返回不同的数据库路径"""
+    if os.path.isfile(".test"):
+        # 调试/测试模式使用单独的数据库
+        return os.path.join("logs", "remotePrinter_test.db")
+    else:
+        # 生产模式使用正式数据库
+        return os.path.join("logs", "remotePrinter.db")
+
+DB_PATH = get_db_path()
 
 
 def init_db():
@@ -372,6 +381,174 @@ def get_latest_records_for_all_task_types() -> list:
     except Exception as e:
         logger.error(f"获取所有任务类型的最新记录失败: {e}")
         return []
+
+
+# ========== 数据库回滚操作 ==========
+
+def get_records_count_by_date(date_string: str) -> dict:
+    """获取指定日期之后各表的记录数量"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        counts = {}
+        
+        # 统计records表
+        cursor.execute('''
+            SELECT COUNT(*) FROM records 
+            WHERE created_at >= datetime(?)
+        ''', (date_string,))
+        counts['records'] = cursor.fetchone()[0]
+        
+        # 统计ids_cache表
+        cursor.execute('''
+            SELECT COUNT(*) FROM ids_cache 
+            WHERE created_at >= datetime(?)
+        ''', (date_string,))
+        counts['ids_cache'] = cursor.fetchone()[0]
+        
+        # 统计tasks表
+        cursor.execute('''
+            SELECT COUNT(*) FROM tasks 
+            WHERE created_at >= datetime(?)
+        ''', (date_string,))
+        counts['tasks'] = cursor.fetchone()[0]
+        
+        conn.close()
+        return counts
+    except Exception as e:
+        logger.error(f"统计记录数量失败: {e}")
+        return {}
+
+
+def rollback_records_by_date(date_string: str, dry_run: bool = True) -> dict:
+    """回滚指定日期之后的所有记录
+    
+    Args:
+        date_string: 日期字符串，格式如 '2026-01-16' 或 '2026-01-16 10:30:00'
+        dry_run: 是否仅模拟运行（不实际删除），默认True
+    
+    Returns:
+        包含删除统计信息的字典
+    """
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        result = {
+            'date': date_string,
+            'dry_run': dry_run,
+            'deleted': {}
+        }
+        
+        # 删除records表记录
+        if dry_run:
+            cursor.execute('''
+                SELECT COUNT(*) FROM records 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['records'] = cursor.fetchone()[0]
+        else:
+            cursor.execute('''
+                DELETE FROM records 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['records'] = cursor.rowcount
+        
+        # 删除ids_cache表记录
+        if dry_run:
+            cursor.execute('''
+                SELECT COUNT(*) FROM ids_cache 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['ids_cache'] = cursor.fetchone()[0]
+        else:
+            cursor.execute('''
+                DELETE FROM ids_cache 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['ids_cache'] = cursor.rowcount
+        
+        # 删除tasks表记录
+        if dry_run:
+            cursor.execute('''
+                SELECT COUNT(*) FROM tasks 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['tasks'] = cursor.fetchone()[0]
+        else:
+            cursor.execute('''
+                DELETE FROM tasks 
+                WHERE created_at >= datetime(?)
+            ''', (date_string,))
+            result['deleted']['tasks'] = cursor.rowcount
+        
+        if not dry_run:
+            conn.commit()
+            logger.info(f"回滚完成 - 删除 records: {result['deleted']['records']}, "
+                       f"ids_cache: {result['deleted']['ids_cache']}, "
+                       f"tasks: {result['deleted']['tasks']}")
+        else:
+            logger.info(f"模拟回滚 - 将删除 records: {result['deleted']['records']}, "
+                       f"ids_cache: {result['deleted']['ids_cache']}, "
+                       f"tasks: {result['deleted']['tasks']}")
+        
+        conn.close()
+        return result
+    except Exception as e:
+        logger.error(f"回滚操作失败: {e}")
+        return {'error': str(e)}
+
+
+def get_date_range_info() -> dict:
+    """获取数据库中记录的日期范围信息"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        info = {}
+        
+        # records表日期范围
+        cursor.execute('''
+            SELECT MIN(created_at), MAX(created_at), COUNT(*) 
+            FROM records
+        ''')
+        row = cursor.fetchone()
+        info['records'] = {
+            'min_date': row[0],
+            'max_date': row[1],
+            'count': row[2]
+        }
+        
+        # ids_cache表日期范围
+        cursor.execute('''
+            SELECT MIN(created_at), MAX(created_at), COUNT(*) 
+            FROM ids_cache
+        ''')
+        row = cursor.fetchone()
+        info['ids_cache'] = {
+            'min_date': row[0],
+            'max_date': row[1],
+            'count': row[2]
+        }
+        
+        # tasks表日期范围
+        cursor.execute('''
+            SELECT MIN(created_at), MAX(created_at), COUNT(*) 
+            FROM tasks
+        ''')
+        row = cursor.fetchone()
+        info['tasks'] = {
+            'min_date': row[0],
+            'max_date': row[1],
+            'count': row[2]
+        }
+        
+        conn.close()
+        return info
+    except Exception as e:
+        logger.error(f"获取日期范围信息失败: {e}")
+        return {}
 
 
 # 初始化数据库
