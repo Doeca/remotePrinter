@@ -60,7 +60,7 @@ def handle_xlsx(data, file):
                 if not rdata:
                     continue
                 try:
-                    if type(rdata) == str:[]
+                    if type(rdata) == str:
                         parsed_data = json.loads(s=rdata)
                         invoices = parsed_data.get('invoiceList', [])
                     else:
