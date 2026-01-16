@@ -6,7 +6,6 @@ from alibabacloud_dingtalk.workflow_1_0.client import Client as dingtalkworkflow
 from alibabacloud_dingtalk.workflow_1_0 import models as dingtalkworkflow__1__0_models
 from alibabacloud_tea_util import models as util_models
 
-import json
 import time
 import requests
 from logsys import logger

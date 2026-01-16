@@ -1,3 +1,9 @@
+import sys
+import os
+
+# 親ディレクトリをパスに追加
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import dingLib
 import json
 
@@ -19,6 +25,6 @@ def class_to_dict(obj):
 # res = dingLib.getInstances(
 #     "PROC-4AD43F2F-8B07-4D46-9D1B-5DCD4342627E", ['COMPLETED'])
 
-for i in  ['eCYUcU5MRUeR3XB8evOEuQ03401748418637']:
+for i in  ['OTtj0TStTJKvILmUPJjaTg03401760699358']:
     res = json.dumps(class_to_dict(dingLib.getDetail(i)), ensure_ascii=False).encode("utf-8")
     open(f"./test{i}.json", "wb").write(res)

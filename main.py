@@ -146,7 +146,7 @@ def process_pending_tasks():
             else:
                 logger.warning(f"未知的任务类型: {task_type}")
         except Exception as ex:
-            logger.error(f"处理任务时出错 - PID: {task_data.get('pid', 'Unknown')}\n错误: {ex}")
+            logger.exception(f"处理任务时出错 - PID: {task_data.get('pid', 'Unknown')}")
 
 class MainTask(threading.Thread):
     """主任务线程，负责定期检查和处理钉钉任务"""
@@ -166,7 +166,7 @@ class MainTask(threading.Thread):
             os.makedirs("./cache")
             logger.info("缓存清理任务完成")
         except Exception as ex:
-            logger.error(f"缓存清理失败: {ex}")
+            logger.exception(f"缓存清理失败")
 
     def is_working_hours(self):
         """检查是否在工作时间内"""
@@ -179,7 +179,7 @@ class MainTask(threading.Thread):
             fetch_and_create_tasks()
             process_pending_tasks()
         except Exception as ex:
-            logger.error(f"处理任务时出错: {ex}")
+            logger.exception(f"处理任务时出错")
 
     def run(self):
         """主循环"""

@@ -11,7 +11,10 @@ characters = string.ascii_letters + string.digits
 def img(images: list, pid, link):
     req = requests.get(link)
     randomdid = ''.join(random.choices(characters, k=8))
-    filename = f"./cache/{pid}_{link[-14:]}_{randomdid}.png"
+    # 元のファイル拡張子を保持
+    import os
+    original_ext = os.path.splitext(link)[1] or '.png'
+    filename = f"./cache/{pid}_{randomdid}{original_ext}"
     logger.debug(f"本地文件名：{filename} download link: {link}")
     with open(filename, "wb") as f:
         f.write(req.content)
