@@ -1,0 +1,12 @@
+domain.py
+.\client\files\*
+.\client\cache
+.\cache
+cache
+__pycache__
+*.json
+test.json
+.DS_Store
+.env
+.debug
+*.pdf
