@@ -44,6 +44,8 @@ def singleat(images: list, pid, data):
     filetype = data.get('fileType', 'unknown')
     if (filetype == 'pdf'):
         pdf(images, pid, duri)
+    elif (filetype == 'png'):
+        img(images, pid, duri)
     elif filetype == 'odf':
         logger.debug(f"unsupported file:{duri}\n")
     elif filetype == 'mp4':

@@ -92,12 +92,6 @@ def fetch_and_create_tasks():
                     f"【Stage3】任务: {data.get('title', 'Unknown')} 结果: {result}，不在目标结果中，标记为已处理")
                 continue
 
-            # 调试模式下直接标记为已处理
-            if os.path.isfile(".debug"):
-                db.add_record(f"{instanceID}_{status}")
-                logger.debug(
-                    f"[调试模式] 标记为已处理 - 实例ID: {instanceID}_{status}, 任务类型: {task.get('task')}, 标题: {data.get('title', 'Unknown')}")
-                continue
             
             # 创建新任务
             title = data.get('title', 'Unknown')

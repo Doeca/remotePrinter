@@ -6,7 +6,7 @@ from logsys import logger
 # 根据运行模式选择不同的数据库文件
 def get_db_path():
     """根据是否存在.test文件返回不同的数据库路径"""
-    if os.path.isfile(".test"):
+    if os.path.isfile(".debug"):
         # 调试/测试模式使用单独的数据库
         return os.path.join("logs", "remotePrinter_test.db")
     else:
