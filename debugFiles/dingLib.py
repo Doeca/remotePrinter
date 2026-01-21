@@ -57,7 +57,7 @@ def getInstances(processcode: str, p_statuses: list = []):
         headers.x_acs_dingtalk_access_token = getToken()
         requestbody = dingtalkworkflow__1__0_models.ListProcessInstanceIdsRequest(
             process_code=processcode,
-            start_time=(int(time.time()) - 86400 * 5)*1000,
+            start_time=(int(time.time()) - 86400 * 30)*1000,
             next_token=p_next_token,
             max_results=20,
             statuses=['COMPLETED'] if p_statuses == [] else p_statuses
@@ -93,11 +93,7 @@ def get_cache_within_90days(processcode: str):
     db.delete_old_ids_cache(processcode, threshold)
     # 返回删除后的数据
     p_info = db.get_ids_cache_by_process(processcode)
-    if not p_info:
-        return []
-    # 按时间戳降序排序（从新到旧）
-    sorted_items = sorted(p_info.items(), key=lambda x: x[1], reverse=True)
-    return [item[0] for item in sorted_items]
+    return list(p_info.keys()) if p_info else []
 
 
 def getDetail(processID: str):

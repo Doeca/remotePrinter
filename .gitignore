@@ -12,6 +12,11 @@ test.json
 .venv*
 venv
 debugFiles\*.json
+.\debugFiles\*json
+.\debugFiles\*txt
+.\debugFiles\*.txt
+.\debugFiles\logs
+.\debugFiles\*
 .test
 logs
 .\logs

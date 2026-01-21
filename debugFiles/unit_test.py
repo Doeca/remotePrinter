@@ -25,6 +25,6 @@ def class_to_dict(obj):
 # res = dingLib.getInstances(
 #     "PROC-4AD43F2F-8B07-4D46-9D1B-5DCD4342627E", ['COMPLETED'])
 
-for i in  ['OTtj0TStTJKvILmUPJjaTg03401760699358']:
+for i in  ['DQEViAw_TeunoBDrfKIVLA03401768383157']:
     res = json.dumps(class_to_dict(dingLib.getDetail(i)), ensure_ascii=False).encode("utf-8")
     open(f"./test{i}.json", "wb").write(res)
