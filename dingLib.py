@@ -57,7 +57,7 @@ def getInstances(processcode: str, p_statuses: list = []):
         headers.x_acs_dingtalk_access_token = getToken()
         requestbody = dingtalkworkflow__1__0_models.ListProcessInstanceIdsRequest(
             process_code=processcode,
-            start_time=(int(time.time()) - 86400 * 5)*1000,
+            start_time=(int(time.time()) - 86400 * 14)*1000,
             next_token=p_next_token,
             max_results=20,
             statuses=['COMPLETED'] if p_statuses == [] else p_statuses

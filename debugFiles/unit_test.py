@@ -25,6 +25,19 @@ def class_to_dict(obj):
 # res = dingLib.getInstances(
 #     "PROC-4AD43F2F-8B07-4D46-9D1B-5DCD4342627E", ['COMPLETED'])
 
-for i in  ['DQEViAw_TeunoBDrfKIVLA03401768383157']:
+for i in  ['QgrXPaClQcKZBAsvUCOiZw03401768378823']:
     res = json.dumps(class_to_dict(dingLib.getDetail(i)), ensure_ascii=False).encode("utf-8")
     open(f"./test{i}.json", "wb").write(res)
+
+
+# 2026-01-23 17:17:55,412 - my_logger - INFO - 开始查找实例: process_code=PROC-203976C0-5A6E-4943-B716-5043B7F4262C, business_id=202601141620000236974
+# 2026-01-23 17:18:13,178 - my_logger - INFO - 共获取到 75 个实例
+# 2026-01-23 17:18:22,011 - my_logger - INFO - ✓ 找到匹配的实例: QgrXPaClQcKZBAsvUCOiZw03401768378823
+# 2026-01-23 17:18:22,012 - my_logger - INFO -   标题: 何小清提交的合作档口营业款付款申请
+# 2026-01-23 17:18:22,012 - my_logger - INFO -   状态: COMPLETED
+# 2026-01-23 17:18:22,012 - my_logger - INFO -   创建时间: 2026-01-14T16:20Z
+
+# ✓ 成功找到实例ID: 
+
+
+# SELECT * FROM records WHERE record_key LIKE '%QgrXPaClQcKZBAsvUCOiZw03401768378823%';

@@ -46,7 +46,7 @@
     "custom_processor": "process_task3_details",
     "operation_records_start": 18,
     "operation_records_style": "simple",
-    "print_mode": "conditional"
+    "print_mode": "a4"
   },
   "5": {
     "name": "付款信息变更",

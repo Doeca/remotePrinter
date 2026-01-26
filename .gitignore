@@ -21,3 +21,4 @@ debugFiles\*.json
 logs
 .\logs
 .\files
+.\files\*
